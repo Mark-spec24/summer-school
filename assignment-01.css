@@ -1,0 +1,302 @@
+
+
+
+.container {
+    width: 1000px;
+    height: 900px;
+    outline: solid 1px black;
+    margin: 0 auto;
+}
+.triangle {
+    position: relative;
+    height: 320px;
+    clip-path: polygon(50% 0%, 0% 250%, 100% 250%);
+  }
+  
+  .triangle div {
+  
+    margin:0 auto 10px;
+    color: black;
+    text-align: center;
+   
+    line-height: 100px;
+  }
+  .triangle .red {
+    width:100%;
+    height: 100px;
+    background: 	red;
+    line-height: 160px;
+  }
+  .red:hover  {
+    .addbutton_red{
+      display:inline;
+    }
+    .minusbutton_red{
+        display:inline;
+    }
+
+    /* background: rgba(255, 0, 0, 0.5); */
+  }
+  
+  .triangle .orange {
+    width:100%;
+    height: 100px;
+    background: orange;
+  }
+  .orange:hover  {
+    .addbutton_orange{
+      display:inline;
+    }
+    .minusbutton_orange{
+        display:inline;
+    }
+    /* background: rgba(255, 166, 0, 0.5); */
+  }
+  .triangle .yellow {
+    width:100%;
+    height: 100px;
+    background: 	yellow
+    ;
+    
+    
+  }
+  .yellow:hover  {
+    .addbutton_yellow{
+      display:inline;
+    }
+    .minusbutton_yellow{
+        display:inline;
+    }
+    /* background: rgba(255, 255, 0, 0.5); */
+  }
+  .triangle .blue {
+    width:100%;
+    height: 100px;
+    background: blue;
+  }
+  .blue:hover  {
+    .addbutton_blue{
+      display:inline;
+    }
+    .minusbutton_blue{
+        display:inline;
+    }
+    /* background: rgba(0, 0, 255, 0.5); */
+  }
+  .triangle .brown {
+    width:100%;
+    height: 100px;
+    background: 	brown;
+  }
+  .brown:hover  {
+    .addbutton_brown{
+      display:inline;
+    }
+    .minusbutton_brown{
+        display:inline;
+    }
+    /* background: rgba(165, 122, 42, 0.5); */
+  }
+  .triangle .green {
+    width:100%;
+    height: 100px;
+    background: green;
+  }
+  .green:hover {
+    .addbutton_green{
+      display:inline;
+    }
+    .minusbutton_green{
+        display:inline;
+    }
+    /* background: rgba(0, 128, 0, 0.5); */
+  }
+  .triangle .text {
+    width:100%;
+    height: 200px;
+   
+    text-align: center;
+   
+    line-height: 30px;
+  }
+
+  .addbutton_red {
+    display: none;
+    background: white;
+   
+    border-radius: 50%;
+    width:25px;
+    height:25px; 
+    position:relative ;
+   
+    }
+  .minusbutton_red {
+     display: none;
+     background: white;
+     border-radius: 50%;
+     width:25px;
+     height:25px;
+     position:relative ;
+
+    }
+  .display_red {    
+    text-align: center;
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    position:relative ;
+    
+   
+  
+    }
+    .addbutton_orange {
+      display: none;
+     
+      background: white;
+      border-radius: 50%;
+      width:25px;
+      height:25px; 
+      position:relative ;
+  
+      }
+    .minusbutton_orange  {
+       display: none;
+       background: white;
+       border-radius: 50%;
+       width:25px;
+       height:25px;
+       position:relative ;
+  
+      }
+    .display_orange  {    
+      text-align: center;
+      width:30px;
+      height:30px;
+      border-radius: 50%;
+      position:relative ;
+    
+      }
+      .addbutton_yellow {
+        display: none;
+       
+        background: white;
+        border-radius: 50%;
+        width:25px;
+        height:25px; 
+        position:relative ;
+    
+        }
+      .minusbutton_yellow  {
+         display: none;
+         background: white;
+         border-radius: 50%;
+         width:25px;
+         height:25px;
+         position:relative ;
+    
+        }
+      .display_yellow  {    
+        text-align: center;
+        width:30px;
+        height:30px;
+        border-radius: 50%;
+        position:relative ;
+      
+        }
+        .addbutton_blue {
+          display: none;
+         
+          background: white;
+          border-radius: 50%;
+          width:25px;
+          height:25px; 
+          position:relative ;
+      
+          }
+        .minusbutton_blue  {
+           display: none;
+           background: white;
+           border-radius: 50%;
+           width:25px;
+           height:25px;
+           position:relative ;
+      
+          }
+        .display_blue  {    
+          text-align: center;
+          width:30px;
+          height:30px;
+          border-radius: 50%;
+          position:relative ;
+        
+          }
+          .addbutton_brown {
+            display: none;
+           
+            background: white;
+            border-radius: 50%;
+            width:25px;
+            height:25px; 
+            position:relative ;
+        
+            }
+          .minusbutton_brown  {
+             display: none;
+             background: white;
+             border-radius: 50%;
+             width:25px;
+             height:25px;
+             position:relative ;
+        
+            }
+          .display_brown  {    
+            text-align: center;
+            width:30px;
+            height:30px;
+            border-radius: 50%;
+            position:relative ;
+          
+            }
+            .addbutton_green {
+              display: none;
+             
+              background: white;
+              border-radius: 50%;
+              width:25px;
+              height:25px; 
+              position:relative ;
+          
+              }
+            .minusbutton_green  {
+               display: none;
+               background: white;
+               border-radius: 50%;
+               width:25px;
+               height:25px;
+               position:relative ;
+          
+              }
+            .display_green  {    
+              text-align: center;
+              width:30px;
+              height:30px;
+              border-radius: 50%;
+              position:relative ;
+            
+              }
+  
+
+
+    /* .triangle:hover div {
+      color: white;
+    }
+  
+  .triangle:hover .mid {
+    top: 110px;
+    background: green;
+  }
+  
+  .triangle:hover .bottom {
+    top: 220px;
+    background: blue;
+  } */

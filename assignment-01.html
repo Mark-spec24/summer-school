@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Pyramid</title>
+    <link rel="stylesheet" href="assignment-01.css">
+   
+</head>
+<body>
+    <div>
+        <input type="button" value="Enter Date"onclick = "EnterDate()" />
+        
+          <input type="text" id="inputdate" value="DD-MMM-YYYY"  maxlength="20" size="11" />
+            </div>
+    </div>
+    <div class ="container">
+    <div class="triangle">
+
+        <div class="red" >
+            <input type="button" class="addbutton_red"  onclick = "incrementRed()" id="addred" value="+" />
+            <input type="button"  id="textred" class="display_red " value="0"/>
+            <input type="button" class="minusbutton_red"  onclick = "decrementRed()" id="minusred" value="-" />
+        </div>
+
+        <div class="orange">
+            <input type="button" class="addbutton_orange"  onclick = "incrementOrange()" id="addorange" value="+" />
+            <input type="button"  id="textorange" class="display_orange " value="0"/>
+            <input type="button" class="minusbutton_orange"  onclick = "decrementOrange()" id="minusorange" value="-" />
+        </div>
+
+        <div class="yellow">
+            <input type="button" class="addbutton_yellow"  onclick = "incrementYellow()" value="+" />
+            <input type="button"  id="textyellow" class="display_yellow " value="0"/>
+            <input type="button" class="minusbutton_yellow"  onclick = "decrementYellow()"  value="-" />
+
+        </div>
+
+        <div class="blue">
+            <input type="button" class="addbutton_blue"  onclick = "incrementBlue()" value="+" />
+            <input type="button"  id="textblue" class="display_blue" value="0"/>
+            <input type="button" class="minusbutton_blue"  onclick = "decrementBlue()"  value="-" />
+
+        </div>
+
+        <div class="brown">
+            <input type="button" class="addbutton_brown"  onclick = "incrementBrown()" value="+" />
+            <input type="button"  id="textbrown" class="display_brown" value="0"/>
+            <input type="button" class="minusbutton_brown"  onclick = "decrementBrown()"  value="-" />
+
+        </div>
+
+        <div class="green">
+            <input type="button" class="addbutton_green"  onclick = "incrementGreen()" value="+" />
+            <input type="button"  id="textgreen" class="display_green" value="0"/>
+            <input type="button" class="minusbutton_green"  onclick = "decrementGreen()"  value="-" />
+
+        </div>
+        <div class="text">
+            <h1>My Food Pyramid</h1>
+            
+            <h1 id="date"></h1>
+            
+            <!-- <input type="text"   maxlength="20" size="35" />
+            </div> -->
+
+      </div>
+    </div>
+    <script src="assignment-01.js">
+
+    </script>
+   
+</body>
+</html>
